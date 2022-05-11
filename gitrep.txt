@@ -85,3 +85,39 @@ To github.com:shahinur-islam30101999/Dance-Website.git
 
 HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
 $
+
+to update---
+
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git repositery.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$ git add .
+
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$ git commit -m "Added gitrep"
+[master 110da05] Added gitrep
+ 1 file changed, 87 insertions(+)
+ create mode 100644 git repositery.txt
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.93 KiB | 1.93 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:shahinur-islam30101999/Dance-Website.git
+   ea48cee..110da05  master -> master
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
