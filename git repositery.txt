@@ -1,0 +1,87 @@
+
+HP@DESKTOP-HIFHC4P MINGW64 ~
+$  cd '/g/Complete Web Development Bootcamp/dancing website'
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$  git config --global user.name "Shahinur Islam"
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$  git config --global user.name Shahinur Islam
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$ git config --global user.email "shahinurislam30101999@gmail.com"
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$ touch .gitignore
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$ git init
+Reinitialized existing Git repository in G:/Complete Web Development Bootcamp/dancing website/.git/
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$  git add .
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$ git commit -m "Initial commit"
+[master ea48cee] Initial commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$  git remote add origin git@github.com:shahinur-islam30101999/Dance-Website.git
+error: remote origin already exists.
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$  ssh-keygen -t rsa -b 4090 -C "shahinurislam30101999.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/HP/.ssh/id_rsa):
+/c/Users/HP/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/HP/.ssh/id_rsa
+Your public key has been saved in /c/Users/HP/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:7mVceiayiqZ5X2ynRHcaOhm8qCcfxiiKyGTwpVWA5rA shahinurislam30101999.com
+The key's randomart image is:
++---[RSA 4090]----+
+|   ..            |
+|. o  .           |
+| =    .          |
+|E .  . .         |
+|.   o   S o o    |
+|.. + o = B *     |
+| o+ . = % O o    |
+|*. o++.* O +     |
+|+.o+o=+.+        |
++----[SHA256]-----+
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$  cat /c/Users/HP/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAAMMqBzwdD6SFNnxf8pL2Am6Fhnhlrka8kMxoef5DNaOhUbdUGyqC5YlNuEGfLZAyc6N6GFovijz0idZQH3h4reNt1V7EF72NCVv9boXNDDpUrLY9mS5Z6xExUL27JrBC4wxhkXeCOtmqZUAWlua8bhHpHxh/iJl07GN5NXYpge/KmJzgJ/MbYO6eOjX/uPB/NMFVKvVc3mTwFAQVVQE9n6F0d0oRcsyQP/LCdmT+MEG/mTjCZl2XSxi9Je0oieGaG52BvXSB5Crbvfn9i/5T5OwJZxgLTgEwqsw2e7Xk+uEFt/JzyB4/BSINlxXMO7qoJcAMGmTnI17JbSdlMn9zfOY8+69oVoMNM/xsKzyzuaPJYMDhYjVKQYNb+blxAipI1S12SOXrNrrbvB1mOvgoCSCQeTD6Wck7WEIiu7ZZcxNPVN/UMiGzk6UdY0WhY2NaqcXxbQcjvlDTXA3EcyQQv+EYqm7VJ1v6G1tNiompD5biv/6JwI/6cCaNxuOTTLBmOHv1hH8nowBWAc0XYovjKcxXneT++u+/SSJT+Gh/nVbJo7gUTlPBGKjXTjTVr3GUsAIwjnJ93w5qDOwsFTZsaojkgiG689LzyYFS0YKwyfFf+0farQVCyEzs8LwqHDiJEfFwsr7Fbm4xi+tgNaEoDE3ymnEReD6Tq/zbYKNO8W7 shahinurislam30101999.com
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$  get push origin master
+bash: get: command not found
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 287 bytes | 287.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:shahinur-islam30101999/Dance-Website.git
+   a997c24..ea48cee  master -> master
+
+HP@DESKTOP-HIFHC4P MINGW64 /g/Complete Web Development Bootcamp/dancing website (master)
+$
