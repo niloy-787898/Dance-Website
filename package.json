@@ -1,0 +1,17 @@
+{
+  "name": "dancing-website",
+  "version": "1.0.0",
+  "description": "This is a website for populer dance academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "niloy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "install": "^0.13.0",
+    "nodemon": "^2.0.16",
+    "pug": "^3.0.2"
+  }
+}

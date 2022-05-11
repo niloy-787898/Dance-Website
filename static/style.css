@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@600&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* logo section */
+
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 4px;
+    font-size: 12px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+/* nav section */
+
+#navber{
+   
+   background-color: rgb(196, 95, 95); 
+}
+#navber ul{
+   display: flex;
+   flex-direction: row;
+   padding: 3px 10px;
+   align-items: center;
+}
+
+#navber li{
+    list-style: none;
+}
+#navber li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 1.2rem;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+#navber li a:hover{
+   color: black;
+   font-weight: bold;
+   /* background-color: lightcoral; */
+   /* border: 2px solid black;
+   border-radius: 100px; */
+}
+
+/* intro section */
+
+#introSection {
+    color: white;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg");
+   height: 450px;
+   opacity: 10;
+   padding-bottom: 60px;
+   font-weight: bold;
+   /* filter: brightness(80%) */
+   /* background-color: aqua;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(EauDp1hUcAAE-bK.jpg); */
+}
+
+#introSection div.small{
+    font-size: 23px;
+    padding: 5px;
+    /* font-weight: bold; */
+    /* filter: brightness(100%) */
+}
+
+/* mission secton */
+
+#missionSection{
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    background-color: #7a6d6d;
+    
+}
+
+#missionSection h2{
+    font-family: 'Radio Canada', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    padding: 25px 0;
+    font-weight: bold;
+}
+
+.card{
+    background-color: rgb(243 137 137) ;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 25%;
+    height: 200px;
+    margin: 20px 25px;
+
+}
+
+.card h3{
+    text-align: center;
+    font-family: 'Radio Canada', sans-serif;
+    /* font-family: 'Roboto', sans-serif;
+    font-weight: bolder; */
+    margin-top: 20px;
+}
+
+.card-box{
+    display:flex;
+    align-items: center;
+    justify-content: center
+}
+.card-img{
+    height: 100px;
+    padding: 0 16px;
+    margin: 26px 12px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content p{
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+
+/* #sponsors section css */
+#sponsorSection {
+    height: 100px;
+    background-color: lightcoral;
+}
+
+#sponsorsSection h2{
+    font-family: 'Radio Canada', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+#sponsors{
+   height: 100px;
+   max-width: 1000px;
+   margin: 0px auto; 
+   text-align: center;
+}
+
+.spImage{
+    height: 50%;
+    margin: 20px;
+    text-align: center;
+}
+
+#footer{
+    display: flex;
+    height: 30px;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
